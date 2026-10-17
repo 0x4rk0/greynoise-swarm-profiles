@@ -1,0 +1,116 @@
+{
+  "mainmenu": [
+    {
+      "id": "Summaries",
+      "url": null,
+      "children": [
+        {
+          "id": "Network_Summary",
+          "url": "networksummary",
+          "public": true
+        },
+        {
+          "id": "Case_Defrost_Summary",
+          "url": "casedefrostsummary",
+          "licenses": [
+            "CIRCUITS_CASE_CTRL",
+            "CIRCUITS_STANDARD",
+            "CIRCUITS_XM"
+          ]
+        },
+        {
+          "id": "System_Summaries",
+          "url": "systemsummary",
+          "public": true
+        },
+        {
+          "id": "Active_Alarm",
+          "url": "alarms",
+          "public": true
+        }
+      ]
+    },
+    {
+      "id": "Layouts",
+      "url": null,
+      "children": [
+        {
+          "id": "Layout_Manager",
+          "actionArea": "sys-wide-sum",
+          "url": "layoutmanager"
+        }
+      ]
+    },
+    {
+      "id": "Analysis",
+      "url": null,
+      "children": [
+        {
+          "id": "System_Logs_Statistics",
+          "url": "logs"
+        }
+      ]
+    },
+    {
+      "id": "Settings",
+      "url": null,
+      "children": [
+        {
+          "id": "General_System_Properties",
+          "url": "generalsystem",
+          "actionArea": "sysVal"
+        },
+        {
+          "id": "File_Management",
+          "actionArea": "backup",
+          "url": "filemanagement"
+        },
+        {
+          "id": "Alarm_Transmissions",
+          "actionArea": "alarmTrans",
+          "url": "alarmhandling"
+        },
+        {
+          "id": "Logging_Groups",
+          "actionArea": "logging",
+          "url": "loggroup"
+        },
+        {
+          "id": "Role-based_User_Access",
+          "actionArea": "user",
+          "url": "users",
+          "show": "SYS_ADMIN"
+        },
+        {
+          "id": "My_Profile",
+          "url": "profile",
+          "public": false
+        },
+        {
+          "id": "Info",
+          "actionArea": "Info",
+          "url": "info"
+        },
+        {
+          "id": "protocolMapping",
+          "url": "protocolMapping",
+          "actionArea": "protocolmapping",
+          "licenses": [
+            "MQTT_CONFIGURATION",
+            "BACNET"
+          ]
+        },
+        {
+          "id": "Certificate_Management",
+          "url": "certificate-management",
+          "show": "isAdministrator",
+          "offlineProgramming": false
+        },
+        {
+          "id": "Reset",
+          "isReset": true
+        }
+      ]
+    }
+  ]
+}

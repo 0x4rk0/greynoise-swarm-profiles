@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+/* printFrameInner is the id of main div in the iframe of popup print div */
+
+/* for the popup print div */
+
+#printFrameInner {
+    background-color: #fff;
+    color: #000;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: small;
+    margin: 0 72px;
+}
+
+/********** ALARM TABLE START **********/
+
+#printFrameInner #alarmTable {
+    border-bottom: 1px solid #000;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+#printFrameInner #alarmTable > thead > tr > th {
+    border-bottom: 1px solid #000;
+    font-size: 14px;
+}
+
+#printFrameInner #alarmTable > tbody > tr > td {
+    overflow-wrap: break-word;
+}
+
+#printFrameInner #alarmTable > thead > tr > th,
+#printFrameInner #alarmTable > tbody > tr > td {
+    padding: 5px;
+    text-align: center;
+    width: 60px;
+}
+
+/* Description column */
+#printFrameInner #alarmTable > thead > tr > th:nth-child(1),
+#printFrameInner #alarmTable > tbody > tr > td:nth-child(1) {
+    text-align: left;
+    width: 150px;
+}
+
+/* Time Occurred column */
+#printFrameInner #alarmTable > thead > tr > th:nth-child(3),
+#printFrameInner #alarmTable > tbody > tr > td:nth-child(3) {
+    width: 70px;
+}
+
+/* Originator column */
+#printFrameInner #alarmTable > thead > tr > th:nth-child(9),
+#printFrameInner #alarmTable > tbody > tr > td:nth-child(9) {
+    text-align: left;
+    width: 250px;
+}
+
+/********** ALARM TABLE END **********/
+
+#printFrameInner #deviceGraphPrintContainer .ss-dv-lg-gr-fom-gauge-container {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+#printFrameInner #deviceGraphPrintContainer .ss-dv-lg-gr-fom-gauge-container th {
+    text-align: center;
+}
+
+#printFrameInner #deviceGraphPrintContainer .ss-dv-lg-gr-fom-gauge-container .ss-dv-lg-gr-fom-name {
+    background-color: #b7dee8;
+}
+
+#printFrameInner #deviceGraphPrintContainer .ss-dv-lg-gr-fom-gauge-container .ss-dv-lg-gr-fom-value-container {
+    border: 2px solid #000;
+}
+
+#printFrameInner #deviceGraphPrintContainer .ss-dv-lg-gr-fom-gauge-container .ss-dv-lg-gr-fom-value-container td {
+    border: 1px solid #000;
+}
+
+#printFrameInner #deviceGraphPrintContainer .ss-dv-lg-gr-parent-fom-gauge-container {
+    width: 200px;
+    margin: 15px auto;
+}
+
+#printFrameInner #deviceGraphPrintContainer .ss-dv-lg-gr-parent-fom-gauge-container > table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+#printFrameInner #deviceGraphPrintContainer .ss-dv-lg-gr-parent-fom-gauge-container .ss-dv-lg-gr-parent-fom-gauge-chart {
+    height: 30px;
+}
+
+#printFrameInner #deviceGraphPrintContainer .ss-dv-lg-gr-child-fom-gauge-container > table {
+    display: inline-block;
+    table-layout: fixed;
+}
+
+#printFrameInner #deviceGraphPrintContainer .ss-dv-lg-gr-child-fom-gauge-container td {
+    white-space: nowrap;
+}
+
+#printFrameInner #deviceGraphPrintContainer .ss-dv-lg-gr-child-fom-gauge-container .ss-dv-lg-gr-child-fom-gauge-chart {
+    min-width: 100px;
+    height: 20px;
+}
+
+#printFrameInner #deviceGraphPrintContainer .ss-dv-lg-gr-fom-reload-container {
+    display: none;
+}
+
+#printFrameInner #deviceGraphPrintContainer a {
+    pointer-events: none;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Show the unit label on the top left */
+#printFrameInner .dygraph-label-rotate-right {
+    color: #000 !important;
+    text-align: center !important;
+    transform: none !important;
+    font-size: 16px !important;
+    position: absolute !important;
+    width: 170px !important;
+    left: 0 !important;
+    top: -22px !important;
+}
+
+#printFrameInner .dygraph-label-rotate-right > .dygraph-ylabel {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#printFrameInner .ss-graph-canvas {
+    flex: none;
+}
+
+#printFrameInner .ss-graph-legend-container {
+    flex: 0 0 200px;
+    position: relative;
+}
+
+#printFrameInner .ss-graph-legend {
+    position: absolute;
+}
+
+#printFrameInner .ss-graph-legend .ss-graph-legend-icon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    vertical-align: top;
+    margin-top: 5px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3), 0 3px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+#printFrameInner .ss-graph-legend .ss-graph-legend-title {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 5px;
+    overflow-wrap: break-word;
+    width: 168px;
+    vertical-align: top;
+}
+
+#printFrameInner .ss-graph-legend .ss-graph-legend-title-app-name {
+    max-width: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+    vertical-align: middle;
+}
+
+#printFrameInner .ss-graph-legend .ss-graph-legend-title-point-name {
+    vertical-align: middle;
+}
+
+#printFrameInner .ss-graph-legend .ss-graph-legend-value {
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+#printFrameInner .ss-graph-legend-expanded-legends {
+    padding-bottom: 5px;
+    z-index: 100;
+    border: none;
+}
+
+#printFrameInner .ss-graph-legend-expanded-legends .ss-graph-legend-more-legends {
+    display: inline-block !important;
+}
+
+#printFrameInner .ss-graph-legend-more-legends {
+    display: none;
+}
+
+#printFrameInner .ss-graph-legend-view-more-legends {
+    cursor: pointer;
+    color: #666;
+    display: inline-block;
+    width: 180px;
+}
+
+/* the css for print */
+
+@media print {
+    #printFrameInner {
+        margin: 0;
+    }
+}
