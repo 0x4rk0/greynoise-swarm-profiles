@@ -42,31 +42,31 @@ def main():
 
     r, _ = rpc("GetSystemInformation", {}, sid)
     info = r["result"]
-    assert info["SiteName"] == "Riverside Market", info
+    from plant_data import SITE
+    assert info["SiteName"] == SITE["SiteName"], info
     print(f"  GetSystemInformation → SiteName={info['SiteName']} platform={info['platform']} model={info['unitmodel']}")
 
-    r, _ = rpc("GetPointValues", {}, sid)
-    pts = r["result"]["points"]
-    assert pts, "no points"
-    target = pts[0]
-    old_sp = target["setpoint"]
-    old_val = target["value"]
+    SP = "487988082:CurPresStpt"   # +16 SUCTION EN pressure setpoint (psi)
+    PV = "487988082:SuctionPres"
+    def vals(ptrs):
+        r, _ = rpc("GetPointValues", {"points": [{"ptr": p} for p in ptrs]}, sid)
+        return {p["ptr"]: float(p["val"]) for p in r["result"]["points"]}
+    v = vals([SP, PV])
+    old_sp, old_val = v[SP], v[PV]
     new_sp = round(old_sp + 5.0, 1)
-    print(f"  Before: {target['name']} value={old_val} setpoint={old_sp}")
+    print(f"  Before: +16 SUCTION EN pressure={old_val} setpoint={old_sp}")
 
-    r, _ = rpc("SetPointValues", {"points": [{"pid": target["pid"], "setpoint": new_sp}]}, sid)
-    assert r["result"].get("success"), r
+    r, _ = rpc("SetPointValues", {"points": [{"ptr": SP, "val": str(new_sp)}]}, sid)
+    res = r["result"]["points"][0]
+    assert "err" not in res, r
     print(f"  SetPointValues → setpoint {old_sp} → {new_sp}")
 
-    # Wait for drift toward new setpoint
     time.sleep(8)
-    r, _ = rpc("GetPointValues", {"pids": [target["pid"]]}, sid)
-    updated = r["result"]["points"][0]
-    print(f"  After ~8s: value={updated['value']} setpoint={updated['setpoint']}")
-    assert updated["setpoint"] == new_sp, updated
-    # Value should have moved toward new setpoint
-    moved = abs(updated["value"] - old_val) > 0.3 or abs(updated["value"] - new_sp) < abs(old_val - new_sp)
-    assert moved, f"value did not drift: {old_val} → {updated['value']} (sp {new_sp})"
+    v = vals([SP, PV])
+    print(f"  After ~8s: pressure={v[PV]} setpoint={v[SP]}")
+    assert abs(v[SP] - new_sp) < 0.01, v
+    moved = abs(v[PV] - new_sp) < abs(old_val - new_sp)
+    assert moved, f"value did not drift: {old_val} → {v[PV]} (sp {new_sp})"
     print("PASS — setpoint accepted and temperature drifted")
 
 
