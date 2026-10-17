@@ -1,0 +1,12 @@
+Options -Indexes
+DirectoryIndex index.html
+RewriteEngine On
+RewriteRule ^(private|data|tests)/ - [F,L]
+RewriteRule ^(router\.php|api\.php|README\.md|Dockerfile|compose\.yaml|.*\.log|.*\.sqlite|.*\.zip)$ - [F,L,NC]
+RewriteRule ^cgi-bin/mgw\.cgi$ api.php [L,QSA]
+RewriteRule ^unit[0-9]+/cgi-bin/mgw\.cgi$ api.php [L,QSA]
+RewriteRule ^unit[0-9]+/(.*)$ $1 [L,QSA]
+<IfModule mod_headers.c>
+ Header always set X-Content-Type-Options "nosniff"
+ Header always set Referrer-Policy "no-referrer"
+</IfModule>

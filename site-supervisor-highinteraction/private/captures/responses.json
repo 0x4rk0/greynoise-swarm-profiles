@@ -1,0 +1,254 @@
+[
+  {
+    "url": "http://206.40.119.142:8010/",
+    "status": 200,
+    "content_type": "text/html",
+    "saved_as": "honeypot-clone/index.html"
+  },
+  {
+    "url": "http://206.40.119.142:8010/js/preload.js?v=1.1",
+    "status": 200,
+    "content_type": "text/javascript",
+    "saved_as": "honeypot-clone/js/preload_1b1198c9f3.js"
+  },
+  {
+    "url": "http://206.40.119.142:8010/css/preload-css-VN3MYCqM.css",
+    "status": 200,
+    "content_type": "text/css",
+    "saved_as": "honeypot-clone/css/preload-css-VN3MYCqM.css"
+  },
+  {
+    "url": "http://206.40.119.142:8010/js/qrcode.js?v=1.0",
+    "status": 200,
+    "content_type": "text/javascript",
+    "saved_as": "honeypot-clone/js/qrcode_19b33d0866.js"
+  },
+  {
+    "url": "http://206.40.119.142:8010/css/reboot-css-DlHqlpKX.css",
+    "status": 200,
+    "content_type": "text/css",
+    "saved_as": "honeypot-clone/css/reboot-css-DlHqlpKX.css"
+  },
+  {
+    "url": "http://206.40.119.142:8010/js/vendor-OZELTil7.js",
+    "status": 200,
+    "content_type": "text/javascript",
+    "saved_as": "honeypot-clone/js/vendor-OZELTil7.js"
+  },
+  {
+    "url": "http://206.40.119.142:8010/js/index-BVxYcbwd.js",
+    "status": 200,
+    "content_type": "text/javascript",
+    "saved_as": "honeypot-clone/js/index-BVxYcbwd.js"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi?m=%7B%22jsonrpc%22%3A%222.0%22%2C%22method%22%3A%22GetSessionID%22%2C%22id%22%3A%221%22%7D",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw_58c4e3c388.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/css/third-lib-default-_MPY56Nc.css",
+    "status": 200,
+    "content_type": "text/css",
+    "saved_as": "honeypot-clone/css/third-lib-default-_MPY56Nc.css"
+  },
+  {
+    "url": "http://206.40.119.142:8010/css/theme-default-CJmKpsIo.css",
+    "status": 200,
+    "content_type": "text/css",
+    "saved_as": "honeypot-clone/css/theme-default-CJmKpsIo.css"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/static-json/main-menu.json?v=2.30F01",
+    "status": 200,
+    "content_type": "application/json",
+    "saved_as": "honeypot-clone/static-json/main-menu_6e8e981e43.json"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/js/i18n/en-US/Common.json?v=2.30F01",
+    "status": 200,
+    "content_type": "application/json",
+    "saved_as": "honeypot-clone/js/i18n/en-US/Common_6e8e981e43.json"
+  },
+  {
+    "url": "http://206.40.119.142:8010/js/i18n/en-US/Widget.json?v=2.30F01",
+    "status": 200,
+    "content_type": "application/json",
+    "saved_as": "honeypot-clone/js/i18n/en-US/Widget_6e8e981e43.json"
+  },
+  {
+    "url": "http://206.40.119.142:8010/js/i18n/en-US/Panel.json?v=2.30F01",
+    "status": 200,
+    "content_type": "application/json",
+    "saved_as": "honeypot-clone/js/i18n/en-US/Panel_6e8e981e43.json"
+  },
+  {
+    "url": "http://206.40.119.142:8010/images/pin-CKKiNy-m.png",
+    "status": 200,
+    "content_type": "image/png",
+    "saved_as": "honeypot-clone/images/pin-CKKiNy-m.png"
+  },
+  {
+    "url": "http://206.40.119.142:8010/images/logo-DE1lxEQ3.png",
+    "status": 200,
+    "content_type": "image/png",
+    "saved_as": "honeypot-clone/images/logo-DE1lxEQ3.png"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/fonts/ionicons-CIIvoz24.woff2?v=3.0.0",
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "saved_as": "honeypot-clone/fonts/ionicons-CIIvoz24_2903e4ce52.woff2"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/fonts/material-icons-kAwBdRge.woff2",
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "saved_as": "honeypot-clone/fonts/material-icons-kAwBdRge.woff2"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  },
+  {
+    "url": "http://206.40.119.142:8010/cgi-bin/mgw.cgi",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "saved_as": "honeypot-clone/cgi-bin/mgw.cgi"
+  }
+]
