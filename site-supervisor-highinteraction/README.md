@@ -2,6 +2,8 @@
 
 This is an **offline, stateful simulation** assembled from a previously captured Copeland Site Supervisor/E3 browser interface. It **does not** run Copeland firmware, reproduce the controller's proprietary backend, or connect to the external device at `206.40.119.142`. It uses no physical equipment. The browser-facing UI contains no deliberate demonstration banners.
 
+![Site Supervisor E3 System Tile showing Refrigeration, HVAC, Other, and System application groups](images/system-tile.png)
+
 ## Quick start on macOS — PHP only
 
 1. Install PHP if missing: `brew install php`
